@@ -1,8 +1,8 @@
 +++
 categories = ["music"]
-title = "Out now: remixes"
 date = "2018-05-11T07:17:43+03:00"
-draft = true
+title = "Out now: remixes"
+
 +++
 {{< bandcamp 649919876 >}}
 
