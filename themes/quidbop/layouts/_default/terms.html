@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+<div class="maincontainer">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="blog-post">
+                <div class="blog-post-title">
+                    <h2>
+                        {{ .Title }}
+                    </h2>
+                </div>
+                <div class="blog-post-body">
+                    <ul>
+                        {{ $data := .Data }} {{ range $key, $value := .Data.Terms }}
+                        <li>
+                            <a href="{{ $key | urlize }}">{{ $key }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+{{ partial "footer" . }}

@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+    <div class='content-container'>
+        <aside>
+            <img class='aside-pic' src="/img/pic.png" alt="Picture of quidbop">
+            <div class='aside-bottom'>
+                <p class='aside-text'>Szabolcs Demeter (quidbop) is a producer and synth maker and coder and a cool guy from Romania. He currently mainly produces
+                    a mixture of deep house and techno, but he also experiments with other genres.
+                </p>
+                <div class='aside-svgs'>
+                    {{ partial "socials.html" . }}
+                </div>
+            </div>
+        </aside>
+        <div class='right'>
+            <section>
+                {{ range first 3 .Data.Pages }}
+                    {{ if eq .Type "posts"}}
+                    <div class="post-container">
+                        <p class='post-category post-category--{{ index .Params.categories 0 }}'>{{ index .Params.categories 0 }}</p>
+                        <a href="{{ .Permalink }}">
+                            <h2 class='post-title'>{{ .Title }}</h2>
+                            <p class='post-date'>{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
+                        </a>
+                        <div class='post-content'>{{ .Summary }}</div>
+                    </div>
+                    {{ end }}
+                {{ end }}
+            </section>
+        </div>
+    </div>
+{{ partial "footer.html" . }}
