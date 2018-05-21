@@ -1,0 +1,12 @@
+backend:
+  name: git-gateway
+media_folder: "static/img/uploads"
+public_folder: "/img/uploads"
+collections:
+  - folder: "content/posts"
+    slug: "{{slug}}"
+    create: true
+    fields: 
+      - {label: "Categories", name: "categories", widget: list}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
