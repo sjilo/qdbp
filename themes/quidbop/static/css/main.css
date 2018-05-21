@@ -383,3 +383,44 @@ em {
 .pagination .active a {
     background-color: #EAEFF2;
 }
+
+@media screen and (max-width: 1300px) {
+
+    .post-category {
+        margin-left: 92px;
+        float: none;
+    }
+
+    .post-title {
+        margin-left: 92px;
+    }
+
+    .container-all {
+        width: 1000px;
+    }
+    aside {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container-all {
+        width: 800px;
+    }
+    
+    .content-container {
+        margin: 64px 0;
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+        margin-bottom: 64px;
+        display: flex;
+    }
+
+    .aside-pic {
+        width: 35%;
+        height: 1%;
+    }
+}
