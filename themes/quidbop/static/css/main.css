@@ -381,6 +381,10 @@ em {
     border-radius: 2px;
 }
 
+.pagination li:last-of-type a {
+    margin-right: 0;
+}
+
 .pagination .active a {
     background-color: #EAEFF2;
 }
@@ -510,6 +514,11 @@ em {
     article h2 {
         font-size: 1.8rem;
         line-height: 1;
+    }
+
+    .pagination {
+        display: flex;
+        margin: 48px auto 0 auto;
     }
 
 }
