@@ -138,6 +138,7 @@ aside {
 .aside-text {
     margin-bottom: 24px;
     font-size: 16px;
+    font-family: "Roboto Mono", monospace;
 }
 
 .aside-bottom {
@@ -424,4 +425,38 @@ em {
         height: 100%;
         width: auto;
     }
+}
+
+@media screen and (max-width: 800px) {
+    .container-all {
+        width: 100%;
+    }
+}
+
+/* Mobile territory */
+
+@media screen and (max-width: 800px) {
+    .container-all, .right {
+        width: 100%;
+    }
+
+    aside {
+        flex-direction: column;
+        height: inherit;
+    }
+
+    .aside-pic {
+        height: inherit;
+        width: inherit;
+    }
+
+    .post-category, .post-title, .post-date, .post-content {
+        margin-left: 0;
+    }
+    
+    section {
+        /* width: 100vw; */
+        padding: 0 24px;
+    }
+
 }
