@@ -8,22 +8,20 @@ Lorem ipsum dolor sit amet, sit dicit evertitur id, usu illud disputationi id. E
 
 {{< bandcamp 649919876 >}}  
   
-_<!--more-->_  
+<!--more-->
+
 And here's a **YouTube** video:  
 {{< youtube b1mxtDskwUE >}}
 
 ## Hey guys what's up
-
   
 I was up late night balling. [Google](google.com "Google").  
 Also here's some code I wrote:  
 {{< highlight python "linenos=table" >}}
+from django.contrib.auth.models import User
 
-    from django.contrib.auth.models import User
-    
-    for i in range(10):
-    	print('Hello {}'.format(i))
-
+for i in range(10):
+	print('Hello {}'.format(i))
 {{< / highlight >}}
 
 {{< soundcloud playlist 306305066 >}}
