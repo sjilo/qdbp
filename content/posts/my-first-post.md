@@ -8,13 +8,11 @@ Lorem ipsum dolor sit amet, sit dicit evertitur id, usu illud disputationi id. E
 
 {{< bandcamp 649919876 >}}  
   
-_<!--more-->  
-  
-  
-_  
-And here's a **\*\*YouTube\*\*** **video**:  
-{{< youtube b1mxtDskwUE >}}  
-\## Hey guys what's up  
+_<!--more-->_  
+And here's a **YouTube** video:  
+{{< youtube b1mxtDskwUE >}}
+
+## Hey guys what's up
 
   
 I was up late night balling. [Google](google.com "Google").  
