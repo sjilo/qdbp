@@ -1,6 +1,7 @@
 +++
 categories = ["code"]
 date = "2018-05-14T04:17:43+00:00"
+draft = true
 title = "Check out my GitHub"
 
 +++
@@ -14,7 +15,7 @@ And here's a **YouTube** _video_:
 
 {{< youtube b1mxtDskwUE >}}
 
-## Hey guys what's upq
+## Hey guys what's up
 
 I was up late night balling. [Google](https://www.google.com).
 
@@ -22,8 +23,8 @@ Also here's some code I wrote:
 {{< highlight python "linenos=table" >}}
 from django.contrib.auth.models import User
 
-    for i in range(10):
-    print('Hello {}'.format(i))
-    {{< / highlight >}}
+for i in range(10):
+print('Hello {}'.format(i))
+{{< / highlight >}}
 
 {{< soundcloud playlist 306305066 >}}
