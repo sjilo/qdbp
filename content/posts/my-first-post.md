@@ -16,6 +16,14 @@ And here's a **YouTube** video:
 
   
 I was up late night balling. [Google](google.com "Google").  
-Also here's some code I wrote:{{< highlight python "linenos=table" >}}from django.contrib.auth.models import User  
-for i in range(10):print('Hello {}'.format(i)){{< / highlight >}}  
+Also here's some code I wrote:  
+{{< highlight python "linenos=table" >}}
+
+    from django.contrib.auth.models import User
+    
+    for i in range(10):
+    	print('Hello {}'.format(i))
+
+{{< / highlight >}}
+
 {{< soundcloud playlist 306305066 >}}
