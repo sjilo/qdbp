@@ -1,7 +1,6 @@
 +++
 categories = ["code"]
 date = "2018-05-14T04:17:43+00:00"
-draft = true
 title = "Check out my GitHub"
 
 +++
