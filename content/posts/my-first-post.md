@@ -22,6 +22,6 @@ from django.contrib.auth.models import User
 
 for i in range(10):
 	print('Hello {}'.format(i))
-{{< / highlight >}}
+{{</ highlight >}}
 
 {{< soundcloud playlist 306305066 >}}
