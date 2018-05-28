@@ -1,6 +1,5 @@
 +++
 date = "2018-05-28T19:59:28+00:00"
-draft = true
 title = "asdf"
 
 +++
