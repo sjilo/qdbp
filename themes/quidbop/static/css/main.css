@@ -581,6 +581,26 @@ footer {
         margin-bottom: 0;
     }
 
+    .nav--code:hover {
+        color: white;
+    }
+
+    .nav--music:hover {
+        color: white;
+    }
+
+    .nav--videos:hover {
+        color: white;
+    }
+
+    .nav--synths:hover {
+        color: white;
+    }
+
+    .nav--posts:hover {
+        color: white;
+    }
+
     .nav--code {
         background-color: #6966FF;
     }
