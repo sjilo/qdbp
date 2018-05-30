@@ -346,6 +346,7 @@ article .post-top {
 
 article .post-title {
     display: block;
+    margin-left: 0;
 }
 
 /* Embeds */
