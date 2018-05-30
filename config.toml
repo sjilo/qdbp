@@ -2,7 +2,7 @@ baseURL = "localhost:1313"
 languageCode = "en-us"
 title = "quidbop"
 theme = 'quidbop'
-pygmentsStyle = "manni"
+# pygmentsStyle = "manni"
 paginate = 3
 [params]
   author = "quidbop"
