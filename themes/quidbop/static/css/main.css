@@ -348,6 +348,7 @@ article .post-top {
 article .post-title {
     display: block;
     margin-left: 0;
+    text-align: center;
 }
 
 /* Embeds */
@@ -594,7 +595,6 @@ footer {
     article .post-title {
         font-size: 2.2rem;
         display: block;
-        text-align: center;
     }
 
     article .post-date {
