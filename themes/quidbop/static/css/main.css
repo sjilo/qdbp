@@ -330,7 +330,6 @@ article .content {
     max-width: 800px;
     position: relative;
     left: 50%;
-    display: inline-block;
     transform: translateX(-50%);
     color: #111;
     line-height: 1.4;
@@ -595,6 +594,7 @@ footer {
     article .post-title {
         font-size: 2.2rem;
         display: block;
+        text-align: left;
     }
 
     article .post-date {
