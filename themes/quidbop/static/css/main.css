@@ -323,6 +323,7 @@ article .post-date {
 
 article .post-category {
     margin-left: 4px;
+    float: left;
 }
 
 article .content {
