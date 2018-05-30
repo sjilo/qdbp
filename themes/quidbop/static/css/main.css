@@ -230,7 +230,7 @@ aside {
     text-align: center;
     color: #FFF;
     font-family: "Roboto Mono", monospace;
-    margin-top: 7px;
+    margin-top: 4px;
     margin-right: 16px;
     float: left;
 }
@@ -277,7 +277,7 @@ article {
 }
 
 article h1 {
-    font-size: 3.4em;
+    font-size: 3rem;
     color: #111;
 }
 
@@ -309,13 +309,14 @@ article p {
 
 .post-title {
     line-height: 1;
+    display: inline-block;
 }
 
 article .post-date {
     font-family: "Roboto Mono", monospace;
     display: inline-block;
     color: #666666;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
     margin-top: 5px;
 }
@@ -341,6 +342,10 @@ article .post-top {
     left: 50%;
     display: inline-block;
     transform: translateX(-50%);
+}
+
+article .post-title {
+    display: block;
 }
 
 /* Embeds */
@@ -405,7 +410,12 @@ em {
 
 @media screen and (max-width: 1300px) {
     
+    .post-title {
+        margin-left: 92px;
+    }
+
     .post-category {
+        float: none;
         margin-left: 92px;
     }
 
@@ -560,6 +570,7 @@ em {
 
     article .post-title {
         font-size: 2.2rem;
+        display: block;
     }
 
     article .post-date {
