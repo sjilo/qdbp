@@ -566,6 +566,12 @@ em {
 
     article {
         padding: 24px;
+        margin-top: 16px;
+    }
+
+    article .post-top {
+        left: 0;
+        transform: none;
     }
 
     article .post-title {
@@ -594,7 +600,7 @@ em {
     }
 
     .post-category {
-        float: none;
+        float: left;
     }
 
 }
