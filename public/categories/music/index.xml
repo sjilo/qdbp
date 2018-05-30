@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on quidbop</title>
+    <link>localhost:1313/categories/music/</link>
+    <description>Recent content in Music on quidbop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 May 2018 21:13:14 +0300</lastBuildDate>
+    
+	<atom:link href="localhost:1313/categories/music/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test</title>
+      <link>localhost:1313/posts/test/</link>
+      <pubDate>Wed, 30 May 2018 21:13:14 +0300</pubDate>
+      
+      <guid>localhost:1313/posts/test/</guid>
+      <description>test blabla</description>
+    </item>
+    
+    <item>
+      <title>Out now: remixes</title>
+      <link>localhost:1313/posts/my-second-post/</link>
+      <pubDate>Fri, 11 May 2018 07:17:43 +0300</pubDate>
+      
+      <guid>localhost:1313/posts/my-second-post/</guid>
+      <description>&lt;iframe style=&#34;border: 0; width: 100%; height: 120px;&#34; src=&#34;https://bandcamp.com/EmbeddedPlayer/album=649919876/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3389552394/transparent=true/&#34;
+    seamless&gt;
+    &lt;a href=&#34;http://quidbop.bandcamp.com/album/remixes&#34;&gt;remixes by quidbop&lt;/a&gt;
+&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

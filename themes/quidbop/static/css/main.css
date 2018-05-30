@@ -113,6 +113,26 @@ nav ul li:first-of-type {
     margin-left: 0;
 }
 
+.nav--code:hover {
+    color: #6966FF;
+}
+
+.nav--music:hover {
+    color: #FFDB66;
+}
+
+.nav--videos:hover {
+    color: #FF9982;
+}
+
+.nav--synths:hover {
+    color: #FF8282;
+}
+
+.nav--posts:hover {
+    color: #3392FF;
+}
+
 .nav-menu-toggle {
     display: none;
 }

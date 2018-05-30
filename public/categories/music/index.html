@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <title>Music</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i" rel="stylesheet">
+    <link rel="icon" href="/img/favicon.png" sizes="144x144">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body>
+<div class="container-all">
+    <header>
+        <nav>
+            <div class="nav-top">
+                <h1 class='nav-title'><a href="/">quidbop</a></h1>
+                <img class='nav-menu-toggle' src='/img/menu.svg'>
+            </div>
+            <ul class='nav-menu'>
+                <li class='nav--posts'><a href="/posts/">posts</a></li>
+                <li class='nav--music'><a href="/categories/music/">music</a></li>
+                <li class='nav--videos'><a href="/categories/videos/">videos</a></li>
+                <li class='nav--synths'><a href="/categories/synths/">synths</a></li>
+                <li class='nav--code'><a href="/categories/code/">code</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class='content-container list'>
+        <div class='right'>
+            <section>
+                
+                    
+                        <div class="post-container">
+                        <a href='/categories/music/'><p class='post-category post-category--music'>music</p></a>
+                        <a href="/posts/test/">
+                                <h2 class='post-title'>test</h2>
+                                <p class='post-date'>Wednesday, May 30, 2018</p>
+                            </a>
+                            <div class='post-content'>test blabla</div>
+                        </div>
+                    
+                
+                    
+                        <div class="post-container">
+                        <a href='/categories/music/'><p class='post-category post-category--music'>music</p></a>
+                        <a href="/posts/my-second-post/">
+                                <h2 class='post-title'>Out now: remixes</h2>
+                                <p class='post-date'>Friday, May 11, 2018</p>
+                            </a>
+                            <div class='post-content'><iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=649919876/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3389552394/transparent=true/"
+    seamless>
+    <a href="http://quidbop.bandcamp.com/album/remixes">remixes by quidbop</a>
+</iframe>
+
+<p></p></div>
+                        </div>
+                    
+                
+            </section>
+        </div>
+        
+
+    </div>
+</div>
+<footer>
+    <p class='selfpromotwentyeighteenhitmeup'> made by <span class='webdevelopmentmagician'>zolika</span> </p>
+</footer>
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
+</body>
+<script src='/js/main.js'></script>
+</html>
