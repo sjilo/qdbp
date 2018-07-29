@@ -23,7 +23,7 @@
                                 <p class='post-date'>{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
                             </a>
                         </div>
-                        {{ if .Params.Thumbnail }}
+                        {{ if .Params.thumbnail }}
                             <img class='post-thumbnail' src="{{ .Params.Thumbnail }}" alt="Post thumbnail">
                         {{ end }}
                         <!-- <div class='post-content'>{{ .Summary }}</div> -->
