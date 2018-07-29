@@ -236,11 +236,15 @@ aside {
     flex-direction: column;
 }
 
+.post-info {
+    margin-bottom: 24px;
+}
+
 .post-date {
     font-family: "Roboto Mono", monospace;
     display: inline-block;
     color: #666666;
-    margin-left: 92px;
+    /* margin-left: 92px; */
     font-size: 18px;
 }
 
@@ -278,6 +282,10 @@ aside {
 
 .post-container:last-of-type {
     margin-bottom: 0;
+}
+
+.post-thumbnail {
+    width: 100%;
 }
 
 .post-content {
