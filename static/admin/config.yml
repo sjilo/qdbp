@@ -3,7 +3,7 @@ backend:
   repo: sjilo/qdbp
   branch: master
 
-media_folder: "static/img/uploads"
+media_folder: "public/img/uploads"
 
 collections:
   - name: "post"
@@ -14,4 +14,5 @@ collections:
       - {label: "Category", name: "categories", widget: "list", default: ["music"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
