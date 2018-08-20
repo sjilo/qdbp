@@ -136,7 +136,7 @@ nav ul li:first-of-type {
 }
 
 .nav-title {
-    font-family: Aileron, Helvetica, Arial, sans-serif;
+    margin-bottom: 32px;
 }
 
 .container-all {
@@ -274,11 +274,11 @@ nav ul li:first-of-type {
 
 .post-a {
     text-decoration: none;
+    margin-bottom: 28px;
 }
 
 .post-container {
     height: 360px;
-    margin-bottom: 28px;
     position: relative;
     background-size: cover;
 }
@@ -507,8 +507,8 @@ footer {
         width: 100%;
     }
 
-    .container-all {
-        margin: 32px 0;
+    article .content {
+        padding: 0 16px;
     }
 
     .content-container {
@@ -535,6 +535,7 @@ footer {
     
     .nav-title {
         float: left;
+        margin-bottom: 0;
     }
 
     .nav-top {
