@@ -107,7 +107,7 @@ nav {
 }
 
 .nav-top {
-    margin-bottom: 32px !important;
+    margin-bottom: 24px !important;
     border-bottom: 1px solid #000;
 }
 
@@ -136,11 +136,11 @@ nav ul li:first-of-type {
 }
 
 .nav-title {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .container-all {
-    margin: 48px auto;
+    margin: 32px auto;
     width: 700px;
     min-height: 100vh;
     display: flex;
@@ -536,6 +536,8 @@ footer {
     .nav-title {
         float: left;
         margin-bottom: 0;
+        padding: 0 24px 24px 24px;
+        border-bottom: 1px solid #666;
     }
 
     .nav-top {
@@ -563,7 +565,7 @@ footer {
         position: relative;
         cursor: pointer;
         margin: 0 auto 32px auto;
-        text-decoration: underline;
+        /* text-decoration: underline; */
         font-size: 24px;
         color: #424242;
     }
