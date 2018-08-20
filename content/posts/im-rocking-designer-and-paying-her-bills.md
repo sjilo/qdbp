@@ -1,8 +1,13 @@
 ---
 categories:
   - music
-title: im rocking designer and paying her bills
+title: Probably not real
 date: '2018-07-29T15:46:34+03:00'
-thumbnail: /img/uploads/34088626_641289892879416_3683178242958688256_n.jpg
+thumbnail: /img/uploads/blazt3huhhr01.png
 ---
-booty so big i dont think that its real
+
+Booty so **big** I don't think that it's real.
+<video controls autoplay='false'>
+  <source src='/img/uploads/00021.mp4' type="video/mp4">
+</video>
+I'm rocking designer and paying her bills.
