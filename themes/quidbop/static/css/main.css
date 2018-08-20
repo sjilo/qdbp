@@ -340,6 +340,10 @@ article p {
     color: rgba(0, 0, 0, .84);
 }
 
+article .content p {
+    margin: 24px 0;
+}
+
 article .post-container {
     margin-bottom: 0;
     height: 380px;
@@ -351,7 +355,7 @@ article .post-info {
 
 article .post-info {
     background: none;
-    padding: 32px 0 48px 0;
+    padding: 32px 0 16px 0;
 }
 
 .post-title {
@@ -413,7 +417,7 @@ article .content div {
 }
 
 article .content iframe {
-    margin: 24px 0;
+    width: 100%;
 }
 
 /* Code */
