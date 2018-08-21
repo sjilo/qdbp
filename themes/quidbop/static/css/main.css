@@ -137,6 +137,7 @@ nav ul li:first-of-type {
 
 .nav-title {
     margin-bottom: 24px;
+    height: 80px;
 }
 
 .container-all {
