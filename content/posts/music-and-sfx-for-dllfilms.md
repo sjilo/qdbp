@@ -1,7 +1,7 @@
 ---
 categories:
   - videos
-title: Music and SFX for DLLFilms
+title: Music for DLLFilms
 date: '2017-07-20T18:26:39+03:00'
 thumbnail: /img/uploads/screen-shot-2018-10-01-at-6.30.37-pm.png
 ---
