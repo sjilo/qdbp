@@ -1,7 +1,7 @@
 ---
 categories:
   - music
-title: remixes
+title: Remixes
 date: '2018-03-19T10:14:12+02:00'
 thumbnail: /img/uploads/cammaledi.jpg
 ---
