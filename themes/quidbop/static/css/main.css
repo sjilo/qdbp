@@ -277,6 +277,7 @@ nav ul li:first-of-type {
     height: 360px;
     position: relative;
     background-size: cover;
+    background-position: center;
 }
 
 .post-shadow {
