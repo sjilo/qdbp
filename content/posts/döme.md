@@ -5,7 +5,7 @@ title: DÖME
 date: '2018-11-17T17:49:47+02:00'
 thumbnail: /img/uploads/img_5862.jpg
 ---
-After building a few noise machines, I wanted to build something more musical that still used the widely available CMOS logic chips. My main inspiration was [Elliot Williams's Logic Noise series on hackaday.com](https://hackaday.com/tag/logic-noise/page/2/).
+After building a few noise machines, I wanted to build something more musical that still used the widely available CMOS logic chips but was controlled by an Arduino. My main inspiration was [Elliot Williams's Logic Noise series on hackaday.com](https://hackaday.com/tag/logic-noise/page/2/).
 
 ## Objectives:
 
