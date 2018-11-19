@@ -314,6 +314,10 @@ article .content h1 {
     font-family: 'Roboto Mono', monospace;
 }
 
+article img {
+	width: 100%;
+}
+
 article .content h2 {
     margin-bottom: 24px;
 }
