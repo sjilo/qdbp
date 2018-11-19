@@ -427,6 +427,8 @@ article .content .highlight table {
     padding: 8px !important;
 }
 
+article img { width: 100% }
+
 strong {
     font-weight: 700;
 }
