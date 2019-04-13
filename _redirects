@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://quidbop.netlify.com/* https://quidbop.com/:splat 301!
