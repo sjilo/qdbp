@@ -1,4 +1,3 @@
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,9 +48,13 @@ a {
     box-sizing: border-box;
 }
 
+header {
+    margin-top: 32px;
+}
+
 ul {
     font-family: "Roboto Mono", monospace;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h1 {
@@ -111,7 +114,6 @@ nav ul {
     margin-bottom: 4px;
     padding: 0 40px;
     color: rgba(0, 0, 0, .84);
-    list-style: none;
 }
 
 nav ul li {
@@ -136,7 +138,7 @@ nav ul li:first-of-type {
 }
 
 .container-all {
-    margin: 32px auto;
+    margin: 0 auto;
     width: 700px;
     min-height: 100vh;
     display: flex;
@@ -147,13 +149,17 @@ nav ul li:first-of-type {
 .about-content {
     padding: 0 40px;
     font-family: "Roboto Mono", monospace;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
 .about-pic {
     width: 100%;
     margin-bottom: 32px;
+}
+
+.about-text {
+    line-height: 1.5;
 }
 
 .aside-svgs {
@@ -277,7 +283,6 @@ nav ul li:first-of-type {
     height: 360px;
     position: relative;
     background-size: cover;
-    background-position: center;
 }
 
 .post-shadow {
@@ -316,11 +321,11 @@ article .content h1 {
 }
 
 article .content h2 {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 article .content h3 {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 article .content a {
@@ -332,13 +337,13 @@ article .content a:hover {
 }
 
 article p {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Roboto Mono", monospace;
     color: rgba(0, 0, 0, .84);
 }
 
 article .content p {
-    margin: 24px 0;
+    margin-bottom: 24px;
 }
 
 article .post-container {
@@ -381,7 +386,7 @@ article .content {
     left: 50%;
     transform: translateX(-50%);
     color: #111;
-    line-height: 1.4;
+    line-height: 1.6;
     padding-bottom: 96px;
     padding: 0 32px;
     overflow: auto;
@@ -426,8 +431,6 @@ article .content .highlight {
 article .content .highlight table {
     padding: 8px !important;
 }
-
-article img { width: 100% }
 
 strong {
     font-weight: 700;
