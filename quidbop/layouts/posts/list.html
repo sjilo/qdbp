@@ -4,7 +4,7 @@
         {{ range first 3 .Paginator.Pages }} 
             {{ if eq .Type "posts"}}
             <a href="{{ .RelPermalink }}" class='post-a'>
-                <div class="post-container" style='background-color: #333; background-image: url({{ .Params.thumbnail }}); background-position: center;'>
+                <div class="post-container" style='background-color: #333; background-image: url({{ .Params.thumbnail.Resize "200px" }}); background-position: center;'>
                     <div class="post-info">
                         <h2 class='post-title'>{{ .Title }}</h2>
                         <div class="post-lower-info">
