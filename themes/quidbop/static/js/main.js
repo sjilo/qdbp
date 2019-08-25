@@ -3,10 +3,10 @@ var menu = document.getElementsByClassName('nav-menu')[0];
 
 toggle.addEventListener('click', function () {
     menu.classList.toggle('shown');
-    if (toggle.textContent === 'Menu') {
-        toggle.textContent = 'Close';
+    if (toggle.textContent === 'MENU') {
+        toggle.textContent = 'CLOSE';
     }
     else {
-        toggle.textContent = 'Menu';
+        toggle.textContent = 'MENU';
     }
 }, false);
