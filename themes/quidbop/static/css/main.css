@@ -1,3 +1,6 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -54,7 +57,7 @@ header {
 
 ul {
     font-family: "Roboto Mono", monospace;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 h1 {
@@ -63,6 +66,7 @@ h1 {
 
 h2 {
     font-size: 2.0rem;
+    letter-spacing: -0.03em;
 }
 
 h3 {
@@ -82,7 +86,7 @@ h6 {
 }
 
 body {
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
     color: rgba(0, 0, 0, .84);
 }
 
@@ -105,7 +109,7 @@ nav {
 
 .nav-top {
     margin-bottom: 24px !important;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(0, 0, 0, .84);
 }
 
 nav ul {
@@ -119,6 +123,14 @@ nav ul {
 nav ul li {
     font-size: 18px;
     list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 nav ul li:first-of-type {
@@ -161,6 +173,7 @@ nav ul li:first-of-type {
 
 .about-text {
     line-height: 1.5;
+    font-size: 15px;
 }
 
 .aside-svgs {
@@ -243,7 +256,7 @@ nav ul li:first-of-type {
     font-family: "Roboto Mono", monospace;
     display: inline-block;
     color: #FFF;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
     margin-left: 16px;
 }
@@ -322,7 +335,8 @@ article .content h1 {
 }
 
 article .content h2 {
-    margin-bottom: 16px;
+    margin: 40px 0 12px 0;
+    font-weight: 500;
 }
 
 article .content h3 {
@@ -338,7 +352,7 @@ article .content a:hover {
 }
 
 article p {
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Roboto Mono", monospace;
     color: rgba(0, 0, 0, .84);
 }
@@ -365,6 +379,7 @@ article .post-info {
     line-height: 1;
     color: #FFF;
     font-weight: 500;
+    letter-spacing: -0.03em;
 }
 
 article video {
@@ -386,7 +401,7 @@ article .content {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    color: #111;
+    color: rgba(0, 0, 0, .84);
     line-height: 1.6;
     padding-bottom: 96px;
     padding: 0 32px;
@@ -407,6 +422,7 @@ article .post-title {
     font-size: 2.6rem;
     color: #111;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 article .post-lower-info {
@@ -656,7 +672,7 @@ footer {
     }
 
     article .post-date {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     article .content {
