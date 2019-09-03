@@ -1,7 +1,7 @@
 ---
 categories:
   - music
-title: kitchen
+title: kitchen EP
 date: '2019-09-03T19:52:19+03:00'
 thumbnail: /img/uploads/cover.jpg
 ---
