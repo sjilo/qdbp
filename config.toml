@@ -1,6 +1,6 @@
 baseURL = "localhost:1313"
 languageCode = "en-us"
-title = "quidbop"
+title = "about"
 theme = 'quidbop'
 # pygmentsStyle = "manni"
 paginate = 3
